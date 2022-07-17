@@ -16,7 +16,7 @@ public class Calculator extends JFrame {
         add(mainPanel);
 
         setTitle("Summation Calculator");
-        setSize(450,500);
+        setSize(700,600);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setVisible(true);
@@ -52,4 +52,5 @@ public class Calculator extends JFrame {
     public static void main(String[] args) {
         Calculator myFrame = new Calculator();
     }
+
 }
